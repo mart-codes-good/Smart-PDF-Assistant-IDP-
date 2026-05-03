@@ -6,6 +6,8 @@ allowing you to engage with a conversational model and ask questions about the s
 To make it work make a copy of this document and then add a Gemini API Key in the secrets tab.
 Link is here: [IDP Assistant](https://colab.research.google.com/drive/15pr8PLYeqSkbJsfDdOWQlmmCa0KzpEqW?usp=sharing)
 
+video goes here
+
 ### Libraries used:
 * Gradio
 * Llama Index
