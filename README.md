@@ -1,12 +1,14 @@
 # Smart-PDF-Assistant-IDP
 
-An AI-powered IDP (intelligent document processor) virtual assistant. When a PDF file is given to the chatbot, it scans its contents, 
-allowing you to engage with a conversational model and ask questions about the scanned PDF.
+This program is an IDP (intelligent document processor) with a chatbot that acts as a virtual assistant. It features a RAG pipeline with adjustable parameters  such as chunk sizes, overlap, and retrieval depth. 
 
-To make it work make a copy of this document and then add a Gemini API Key in the secrets tab.
-Link is here: [IDP Assistant](https://colab.research.google.com/drive/15pr8PLYeqSkbJsfDdOWQlmmCa0KzpEqW?usp=sharing)
+Knowledge cutoffs are a common limitation of LLM’s. They occur when the model’s training data is finalized, after which it can no longer get new information or updates. In addition to this, LLM’s also struggle with niche topics since they were likely not trained on these sets of information. This program is one of the examples of solving this issue, using an RAG pipeline to provide the chatbot with any niche or private information you may need to work with, so that it can better serve you.
 
-video goes here
+So that you can use this program locally, make a copy of this document after signing into Google Colab and add your Gemini API key in the secrets tab.
+
+The link is here: [IDP Assistant](https://colab.research.google.com/drive/15pr8PLYeqSkbJsfDdOWQlmmCa0KzpEqW?usp=sharing)
+
+Media of the application will be attached here soon.
 
 ### Libraries used:
 * Gradio
